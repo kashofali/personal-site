@@ -1,0 +1,154 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Merriweather', serif;
+  color: #4ea0ae;
+}
+
+
+/* navbar section */
+
+.navbar{
+  background-color: #00adb5;
+}
+
+.brand-image{
+  height: 30px;
+  width: 30px;
+}
+
+.nav-item{
+  margin: 0 7px;
+}
+
+/* home-container section */
+
+#home-container{
+  background-image: url(home-background.jpg);
+  background-size: contain;
+  padding: 250px;
+}
+
+.title-name{
+  color: #006a71;
+  font-family: 'Gilda Display', serif;
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+.sub-title{
+  color: #4ea0ae;
+  font-size: 1.3rem;
+  padding-top: 10px;
+}
+
+
+/* about me */
+
+#about-me{
+  padding: 100px;
+}
+
+.hello{
+  padding-top: 3%;
+}
+
+.about-me-des{
+  line-height: 1.5;
+  font-size: 1.5rem;
+  width: 50%;
+  margin: auto ;
+  padding: 3% 0%;
+}
+
+
+
+/* services section */
+
+#services{
+  background-color: #bbe1fa;
+  padding: 100px;
+}
+
+.main-service{
+  color: #006a71;
+  font-size: 2.5rem;
+}
+
+.services1{
+  text-align: left;
+  width: 75%;
+  margin: auto;
+  padding: 50px;
+}
+
+.services2{
+   text-align: left;
+   width: 75%;
+   margin: auto;
+   padding: 50px;
+}
+
+.services-pic1{
+  border-radius: 100%;
+  float: left;
+  width: 25%;
+  margin-right: 40px;
+}
+
+.services-pic2{
+  border-radius: 100%;
+  float: right;
+  width: 25%;
+
+}
+
+.service-des{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+/* contact me section */
+
+#contact-me{
+    padding: 100px 100px 75px;
+}
+
+.contact-des{
+
+}
+
+.mail-id{
+  color: #ffff;
+}
+
+.btn{
+  margin: 50px;
+}
+
+.mail-icon{
+  margin-right: 10px;
+}
+
+
+/* footer section */
+
+#footer{
+  background-color: #bbe1fa;
+  padding: 50px;
+}
+
+.social-icon{
+  margin: 10px;
+  size: 5px;
+}
+
+
+/* multiple selector */
+#contact-me .about-me-des{
+  width: 100%;
+}
