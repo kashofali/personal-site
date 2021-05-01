@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6{
 
 #home-container{
   background-image: url(home-background.jpg);
+  background-repeat: no-repeat;
   background-size: contain;
   padding: 250px;
 }
